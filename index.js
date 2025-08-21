@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8000
 
 app.get('/', (req, res) => 
 {
-    return res.json({ message : "runninghi project"})
+    return res.json({ message : "running project"})
 })
 
 app.get('/home', (req, res) => 
